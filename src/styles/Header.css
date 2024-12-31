@@ -1,0 +1,14 @@
+.app-header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .app-header a {
+    color: white;
+    text-decoration: none;
+  }
+  

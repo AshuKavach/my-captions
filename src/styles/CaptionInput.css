@@ -1,0 +1,48 @@
+.caption-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 1rem auto;
+  }
+  
+  .caption-input input,
+  .caption-input button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .caption-input input:focus,
+  .caption-input button:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .caption-input button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .caption-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (min-width: 768px) {
+    .caption-input {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .caption-input input {
+      flex: 1;
+    }
+  
+    .caption-input button {
+      margin-left: 1rem;
+    }
+  }
+  
